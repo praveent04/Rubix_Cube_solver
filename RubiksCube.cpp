@@ -1,7 +1,7 @@
 //
-// Created by DELL on 11-06-2024.
+// Created by PRAVEEN on 11-06-2024.
 //
-
+// will add comments later
 
 #include "RubiksCube.h"
 
