@@ -9,4 +9,5 @@ add_executable(rubix main.cpp
         model/RubiksCube1dArray.cpp
         model/RubiksCube3dArray.cpp
         model/RubiksCube1dArray.cpp
-        model/RubiksCube1dArray.cpp)
+        model/RubiksCube1dArray.cpp
+        main.cpp)
