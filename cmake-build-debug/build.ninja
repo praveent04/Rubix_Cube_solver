@@ -49,17 +49,29 @@ cmake_ninja_workdir = D$:/rubix/cmake-build-debug/
 
 build cmake_object_order_depends_target_rubix: phony || CMakeFiles/rubix.dir
 
+build CMakeFiles/rubix.dir/model/RubiksCube.cpp.obj: CXX_COMPILER__rubix_unscanned_Debug D$:/rubix/model/RubiksCube.cpp || cmake_object_order_depends_target_rubix
+  DEP_FILE = CMakeFiles\rubix.dir\model\RubiksCube.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubix.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubix.dir\model
+
 build CMakeFiles/rubix.dir/main.cpp.obj: CXX_COMPILER__rubix_unscanned_Debug D$:/rubix/main.cpp || cmake_object_order_depends_target_rubix
   DEP_FILE = CMakeFiles\rubix.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\rubix.dir
   OBJECT_FILE_DIR = CMakeFiles\rubix.dir
 
-build CMakeFiles/rubix.dir/genericrubixclass.cpp.obj: CXX_COMPILER__rubix_unscanned_Debug D$:/rubix/genericrubixclass.cpp || cmake_object_order_depends_target_rubix
-  DEP_FILE = CMakeFiles\rubix.dir\genericrubixclass.cpp.obj.d
+build CMakeFiles/rubix.dir/model/RubiksCube3dArray.cpp.obj: CXX_COMPILER__rubix_unscanned_Debug D$:/rubix/model/RubiksCube3dArray.cpp || cmake_object_order_depends_target_rubix
+  DEP_FILE = CMakeFiles\rubix.dir\model\RubiksCube3dArray.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\rubix.dir
-  OBJECT_FILE_DIR = CMakeFiles\rubix.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubix.dir\model
+
+build CMakeFiles/rubix.dir/model/RubiksCube1dArray.cpp.obj: CXX_COMPILER__rubix_unscanned_Debug D$:/rubix/model/RubiksCube1dArray.cpp || cmake_object_order_depends_target_rubix
+  DEP_FILE = CMakeFiles\rubix.dir\model\RubiksCube1dArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubix.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubix.dir\model
 
 
 # =============================================================================
@@ -69,7 +81,7 @@ build CMakeFiles/rubix.dir/genericrubixclass.cpp.obj: CXX_COMPILER__rubix_unscan
 #############################################
 # Link the executable rubix.exe
 
-build rubix.exe: CXX_EXECUTABLE_LINKER__rubix_Debug CMakeFiles/rubix.dir/main.cpp.obj CMakeFiles/rubix.dir/genericrubixclass.cpp.obj
+build rubix.exe: CXX_EXECUTABLE_LINKER__rubix_Debug CMakeFiles/rubix.dir/model/RubiksCube.cpp.obj CMakeFiles/rubix.dir/main.cpp.obj CMakeFiles/rubix.dir/model/RubiksCube3dArray.cpp.obj CMakeFiles/rubix.dir/model/RubiksCube1dArray.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\rubix.dir

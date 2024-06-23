@@ -152,7 +152,7 @@ RubiksCube &RubiksCube::invert(RubiksCube::Move ind) {
 
 void RubiksCube::print() const {
 
-    cout<< "Rubik's Cube Planar Presentation";
+    cout<< "Rubik's Cube Planar Presentation"<<endl<<endl;
 
     for(int row=0; row<3 ; row++) {
         for (unsigned int i = 0; i < 7; i++) cout << " ";
