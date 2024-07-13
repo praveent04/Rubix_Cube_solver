@@ -2,7 +2,7 @@
 
 This project provides an implementation to solve the Rubik's Cube using Depth-First Search (DFS) and Breadth-First Search (BFS) algorithms. The cube is represented in three different formats: 1D array, 3D array, and bitboard, each solvable using either DFS or BFS.
 
-#two files yet to upload
+################### two files yet to upload ################
 
 ## Features
 - **Multiple Representations:** Solve the Rubik's Cube using three different representations: 1D array, 3D array, and bitboard.
